@@ -1,2 +1,86 @@
-
-/* Your CSS Code here. */
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.nav{
+    width: 100vw;
+    height: 60px;
+    background-color: blueviolet;
+}
+.nav a{
+    text-decoration: none;
+    color: white;
+    height: 30px;
+    font-size: 20px;
+    text-align: center;
+    padding: 15px 20px;
+    float: left;
+}
+.nav a:hover{
+    background-color: rgb(255, 255, 255);
+    color: #000;
+}
+.nav a.active{
+    background-color: rgb(255, 255, 255);
+    color: #000;
+}
+.hero{
+    text-align: center;
+    width: 100vw;
+    height: 350px;
+    background-image: url(https://source.unsplash.com/1200x400/?Coding);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.hero h1{
+    text-shadow: 2px 3px 30px black;
+    font-size:xx-large;
+    padding-top: 100px;
+}
+.hero p{
+    text-shadow: 2px 3px 30px black;
+    padding-bottom: 50px;
+}
+.hero button{
+    border: none;
+    text-decoration: none;
+    color: white;
+    font-size: 20px; 
+    padding: 10px 40px;
+    background-color: blueviolet;
+    border-radius: 25px;
+    margin-bottom: 100px;
+}
+.showcase{
+    text-align: center;
+    width: 80vw;
+    margin: 20px auto;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 10px;
+}
+.showcase img{
+	border-radius:4px;
+    max-width: 90%;
+    min-width: 20%;
+    
+}
+footer {
+    text-align: center;
+    width: 100vw;
+    height: 100px;
+    background-color: blueviolet;
+    color: white;
+}
+footer a{
+    margin: 10px auto;
+    padding: 8px 25px;
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    display: inline-block;
+    border-radius: 5px;
+    background-color: rgb(255, 255, 255);
+}
